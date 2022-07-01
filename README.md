@@ -1,5 +1,14 @@
 # Projet Python HIBP
 
+
+## Vérification de mots de passe sécurisés:
+
+- PwndPass_french.py --> demande un mot de passe en clair
+
+- passwordissafe.sh  --> lit un fichier de config puis une db de mots passe hashés en sha1
+
+
+
 Pour ce projet vous devrez vérifier que vos utilisateurs n'utilisent pas un mot
 de passe "corrompu" ("pwned"), pour cela vous avez à disposition une base de
 données (CSV ou SQLite au choix) avec un champ `login` et un champ `password`,
